@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.contribute-section {
+  background-color: #9DADE3;
+  width: 100vw;
+  height: calc(100vh - 60px);
+}
+
+.contribute-heading {
+  padding-top: 30px;
+  text-align: center;
+}
+
+form {
+  height: 500px;
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin: 20px 0;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+}
+
+.submit {
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 992px) {
+  
+}

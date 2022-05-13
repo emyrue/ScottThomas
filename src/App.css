@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin-top: 60px;
+  background-color: #eaeeff;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.error {
+  display: flex;
+  height: calc(100vh - 60px);
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mobile-links {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  height: 300px;
+  margin-top: calc(50vh - 150px);
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo {
+  height: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #495fa6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  color: #F6AE84;
+  text-decoration: none;
+}
+
+.headline {
+  display: flex;
+}
+
+.headline-paragraph {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .name {
+    font-size: 50px;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .headline-paragraph {
+    max-width: 500px;
+    padding-top: 20px;
+    margin: auto;
+  }
+
+  .headline {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mobile-banner {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  nav,
+  .desktop-banner {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mobile-banner,
+  .hamburger {
+    display: none;
+  }
+
+  .desktop-banner {
+    width: 50%;
+  }
+
+  .headline {
+    align-items: center;
+  }
+
+  .name {
+    font-size: 70px;
+  }
+
+  .headline-paragraph {
+    font-size: 25px;
   }
 }

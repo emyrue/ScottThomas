@@ -63,9 +63,10 @@ class Contribute extends React.Component {
         <form
           action="https://formspree.io/f/xeqnvzby"
           method="POST"
+          encType="multipart/form-data"
           onSubmit={this.handleSubmit}
         >
-          {submitAttempt && (<div className="error">Please submit a story or photo.</div>)}
+          {submitAttempt && (<small className="error">Please submit a story or photo.</small>)}
           <div className="form-name form">
             <label htmlFor="name">
               <span className="label">Name</span>
@@ -85,9 +86,9 @@ class Contribute extends React.Component {
             </label>
           </div>
           <div className="form-photo form">
-            <label htmlFor="photo">
+            <label htmlFor="upload" onChange={this.handleFileChange}>
               <span className="label">Upload Photo</span>
-              <input id="photo" name="photo" type="file" accept="image/*" onChange={this.handleFileChange} />
+              <input id="upload" name="upload" type="file" accept="image/*" />
             </label>
           </div>
           <div className="form-caption form">

@@ -58,47 +58,49 @@ class Contribute extends React.Component {
       submitAttempt,
     } = this.state;
     return (
-      <section className="contribute-section">
-        <h2 className="contribute-heading">Contribute</h2>
-        <form
-          action="https://formspree.io/f/xeqnvzby"
-          method="POST"
-          encType="multipart/form-data"
-          onSubmit={this.handleSubmit}
-        >
-          {submitAttempt && (<small className="error">Please submit a story or photo.</small>)}
-          <div className="form-name form">
-            <label htmlFor="name">
-              <span className="label">Name</span>
-              <input id="name" name="name" type="text" placeholder="Your Name" value={name} onChange={this.handleNameChange} required />
-            </label>
-          </div>
-          <div className="form-email form">
-            <label htmlFor="email">
-              <span className="label">Email</span>
-              <input id="email" name="email" type="email" placeholder="Your Email" value={email} onChange={this.handleEmailChange} required />
-            </label>
-          </div>
-          <div className="form-story form">
-            <label htmlFor="story">
-              <span className="label">Story</span>
-              <textarea id="story" name="story" placeholder="Enter your story here" value={story} onChange={this.handleStoryChange} />
-            </label>
-          </div>
-          <div className="form-photo form">
-            <label htmlFor="upload" onChange={this.handleFileChange}>
-              <span className="label">Upload Photo</span>
-              <input id="upload" name="upload" type="file" accept="image/*" />
-            </label>
-          </div>
-          <div className="form-caption form">
-            <label htmlFor="caption">
-              <span className="label">Caption</span>
-              <input id="caption" name="caption" type="text" placeholder="Caption for photo" />
-            </label>
-          </div>
-          <button className="submit" type="submit">Submit</button>
-        </form>
+      <section className="contribute-container">
+        <section className="contribute-section">
+          <h2 className="contribute-heading">Contribute</h2>
+          <form
+            action="https://formspree.io/f/xeqnvzby"
+            method="POST"
+            encType="multipart/form-data"
+            onSubmit={this.handleSubmit}
+          >
+            {submitAttempt && (<small className="error">Please submit a story or photo.</small>)}
+            <div className="form-name form">
+              <label htmlFor="name">
+                <span className="label">Name</span>
+                <input id="name" name="name" type="text" placeholder="Your Name" value={name} onChange={this.handleNameChange} required />
+              </label>
+            </div>
+            <div className="form-email form">
+              <label htmlFor="email">
+                <span className="label">Email</span>
+                <input id="email" name="email" type="email" placeholder="Your Email" value={email} onChange={this.handleEmailChange} required />
+              </label>
+            </div>
+            <div className="form-story form">
+              <label htmlFor="story">
+                <span className="label">Story</span>
+                <textarea id="story" name="story" placeholder="Enter your story here" value={story} onChange={this.handleStoryChange} />
+              </label>
+            </div>
+            <div className="form-photo form">
+              <label htmlFor="upload" onChange={this.handleFileChange}>
+                <span className="label">Upload Photo</span>
+                <input id="upload" name="upload" type="file" accept="image/*" />
+              </label>
+            </div>
+            <div className="form-caption form">
+              <label htmlFor="caption">
+                <span className="label">Caption</span>
+                <input id="caption" name="caption" type="text" placeholder="Caption for photo" />
+              </label>
+            </div>
+            <button className="submit" type="submit">Submit</button>
+          </form>
+        </section>
       </section>
     );
   }

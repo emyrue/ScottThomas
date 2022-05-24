@@ -16,7 +16,7 @@ body {
 
 form {
   min-height: 500px;
-  width: 75vw;
+  width: 75%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ input {
 textarea {
   border: none;
   padding: 5px;
-  width: 75vw;
+  width: 100%;
   height: 100px;
   font-family:
     -apple-system,
@@ -54,6 +54,8 @@ textarea {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
+  resize: vertical;
+  min-height: 100px;
 }
 
 #photo {
@@ -73,4 +75,24 @@ textarea {
   padding: 5px;
   color: #f6ae84;
   font-weight: bold;
+}
+
+.contribute-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+
+@media only screen and (min-width: 992px) {
+  .contribute-section {
+    width: 60vw;
+    min-height: auto;
+    padding: 30px;
+    border-radius: 50px 0;
+  }
+
+  .contribute-heading {
+    padding: 0;
+  }
 }

@@ -92,12 +92,12 @@ class Contribute extends React.Component {
                 <input id="upload" name="upload" type="file" accept="image/*" />
               </label>
             </div>
-            <div className="form-caption form">
+            {/* <div className="form-caption form">
               <label htmlFor="caption">
                 <span className="label">Caption</span>
                 <input id="caption" name="caption" type="text" placeholder="Caption for photo" />
               </label>
-            </div>
+            </div> */}
             <button className="submit" type="submit">Submit</button>
           </form>
         </section>

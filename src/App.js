@@ -7,6 +7,7 @@ import logo from './icons/logo.png';
 import menu from './icons/hamburger.svg';
 import './style/App.css';
 import Contribute from './pages/Contribute';
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Headline />} />
         <Route path="/menu" element={<MobileMenu />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/contribute" element={<Contribute />} />
         <Route path="*" element={<div className="error">Page not found</div>} />
       </Routes>

@@ -45,3 +45,14 @@
   background-color: transparent;
   border: none;
 }
+
+.gallery-heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .gallery-heading {
+    font-size: 50px;
+  }
+}

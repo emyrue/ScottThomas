@@ -7,7 +7,7 @@ import '../style/gallery.css';
 export default function Gallery() {
   return (
     <section className="gallery-container">
-      <h2>Gallery</h2>
+      <h2 className="gallery-heading">Gallery</h2>
       <div className="photos-container">
         {images.map((image) => (
           <div key={uuidv4()}>

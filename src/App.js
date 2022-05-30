@@ -8,6 +8,7 @@ import menu from './icons/hamburger.svg';
 import './style/App.css';
 import Contribute from './pages/Contribute';
 import Gallery from './pages/Gallery';
+import Stories from './pages/Stories';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" element={<Headline />} />
         <Route path="/menu" element={<MobileMenu />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/stories" element={<Stories />} />
         <Route path="/contribute" element={<Contribute />} />
         <Route path="*" element={<div className="error">Page not found</div>} />
       </Routes>

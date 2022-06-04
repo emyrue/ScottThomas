@@ -1,0 +1,33 @@
+.stories-heading {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.stories-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.stories-link {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.stories-author {
+  padding: 10px;
+  text-align: center;
+}
+
+.story {
+  padding: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  .stories-heading {
+    font-size: 50px;
+  }
+}

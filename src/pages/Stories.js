@@ -1,12 +1,14 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import collections from '../allstories';
+import '../style/stories.css';
 
 export default function Stories() {
   return (
     <section className="stories-section">
-      <h2>Stories</h2>
+      <h2 className="stories-heading">Stories</h2>
       <ul className="stories-navigation">
+        <li>Go to:</li>
         {collections.map((object) => (
           <li key={uuidv4()} className="stories-list-item">
             <a className="stories-link" href={object.href}>
@@ -17,11 +19,20 @@ export default function Stories() {
           </li>
         ))}
       </ul>
-      <div>
+      <div className="all-stories">
         {collections.map((object) => (
           <div key={uuidv4()} id={object.id}>
-            {object.stories.map((story) => (
-              <div key={uuidv4()}>{story}</div>
+            <h3 className="stories-author">
+              Stories by
+              {' '}
+              {object.name}
+            </h3>
+            {object.stories.map((story, i) => (
+              <div className="story" key={uuidv4()}>
+                {i + 1}
+                {') '}
+                {story}
+              </div>
             ))}
           </div>
         ))}

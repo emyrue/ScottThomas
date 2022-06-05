@@ -86,7 +86,6 @@ import image85 from './photos/image85.png';
 import image86 from './photos/image86.png';
 import image87 from './photos/image87.png';
 import image88 from './photos/image88.png';
-import image89 from './photos/image89.png';
 
 const images = [
   image1,
@@ -177,7 +176,6 @@ const images = [
   image86,
   image87,
   image88,
-  image89,
 ];
 
 export default images;

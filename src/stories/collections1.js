@@ -1,4 +1,4 @@
-import image89 from '../photos/image89.png';
+import image89 from '../story-photos/image89.png';
 
 const collection1 = {
   name: 'Emily Robertson',
@@ -8,7 +8,7 @@ const collection1 = {
     image89,
   ],
   stories: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere urna nec tincidunt praesent semper feugiat nibh sed. Eleifend mi in nulla posuere sollicitudin. Neque viverra justo nec ultrices dui sapien eget. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Pulvinar mattis nunc sed blandit libero. Aliquam ut porttitor leo a diam sollicitudin tempor id. Amet nisl suscipit adipiscing bibendum. Interdum velit laoreet id donec. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Tellus in hac habitasse platea dictumst vestibulum rhoncus est.',
+    'Grandpa Scott took me out to see Chitty Chitty Bang Bang at the Hale Center Theater. We really enjoyed the show, and at the end, I asked Grandpa to stand behind the Chitty Chitty Bang Bang cutout and took this picture of him, which I will treasure forever. I love the time that I spend with my Grandpa. He really loves his grandkids, and you can see it in everything he does.',
   ],
 };
 

@@ -61,6 +61,7 @@ class Contribute extends React.Component {
       <section className="contribute-container">
         <section className="contribute-section">
           <h2 className="contribute-heading">Contribute</h2>
+          <h6 className="directions">Enter a story and/or photo and it will be put up onto the website within a few days. If you experience any issues, contact emyrue@gmail.com</h6>
           <form
             action="https://formspree.io/f/xeqnvzby"
             method="POST"
@@ -83,7 +84,7 @@ class Contribute extends React.Component {
             <div className="form-story form">
               <label htmlFor="story">
                 <span className="label">Story</span>
-                <textarea id="story" name="story" placeholder="Enter your story here" value={story} onChange={this.handleStoryChange} />
+                <textarea id="story" minLength={300} name="story" placeholder="Enter your story here" value={story} onChange={this.handleStoryChange} />
               </label>
             </div>
             <div className="form-photo form">
@@ -92,12 +93,12 @@ class Contribute extends React.Component {
                 <input id="upload" name="upload" type="file" accept="image/*" />
               </label>
             </div>
-            {/* <div className="form-caption form">
-              <label htmlFor="caption">
-                <span className="label">Caption</span>
-                <input id="caption" name="caption" type="text" placeholder="Caption for photo" />
-              </label>
-            </div> */}
+            <div className="form-checkbox form">
+              <input id="checkbox" type="checkbox" />
+              <span className="checkbox-text">
+                I would like the photo to be included on the stories page with my story.
+              </span>
+            </div>
             <button className="submit" type="submit">Submit</button>
           </form>
         </section>

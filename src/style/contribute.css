@@ -66,6 +66,8 @@ textarea {
   color: red;
   font-size: 12px;
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 .submit {
@@ -82,6 +84,21 @@ textarea {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 60px);
+}
+
+.form-checkbox {
+  padding: 10px 5px;
+}
+
+.checkbox-text {
+  padding: 10px;
+}
+
+.directions {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
 }
 
 @media only screen and (min-width: 992px) {

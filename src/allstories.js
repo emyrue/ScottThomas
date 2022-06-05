@@ -1,4 +1,4 @@
-import collection1 from './stories/collection1';
+import collection1 from './stories/collections1';
 
 const collections = [
   collection1,

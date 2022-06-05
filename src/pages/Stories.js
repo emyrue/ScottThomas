@@ -29,9 +29,15 @@ export default function Stories() {
             </h3>
             {object.stories.map((story, i) => (
               <div className="story" key={uuidv4()}>
-                {i + 1}
-                {') '}
-                {story}
+                {
+                  object.images[i]
+                  && <img className="story-photo" src={object.images[i]} alt="" />
+                }
+                <div className="story-text">
+                  {i + 1}
+                  {') '}
+                  {story}
+                </div>
               </div>
             ))}
           </div>

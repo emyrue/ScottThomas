@@ -42,7 +42,6 @@ import image41 from './photos/image41.png';
 import image42 from './photos/image42.png';
 import image43 from './photos/image43.png';
 import image44 from './photos/image44.png';
-import image45 from './photos/image45.png';
 import image46 from './photos/image46.png';
 import image47 from './photos/image47.png';
 import image48 from './photos/image48.png';
@@ -132,7 +131,6 @@ const images = [
   image42,
   image43,
   image44,
-  image45,
   image46,
   image47,
   image48,

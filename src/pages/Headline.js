@@ -14,13 +14,12 @@ class Headline extends React.Component {
         <div>
           <h1 className="name">William Scott Thomas</h1>
           <p className="headline-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Vitae aliquet nec ullamcorper
-            sit amet risus nullam eget felis. At quis risus sed
-            vulputate odio ut enim. Mollis aliquam ut porttitor
-            leo a diam sollicitudin tempor id. Arcu felis bibendum
-            ut tristique et egestas quis ipsum suspendisse.
+            Hello! Welcome to Scott Thomas&apos;s tribute site!
+            Help us celebrate his 80th birthday by sending us
+            your photos and stories! To view pictures, head to the
+            Gallery page. To read stories about Scott, head to the
+            Stories page. To submit your own photos and stories,
+            head to the Contribute page.
           </p>
         </div>
         <img className="desktop-banner" src={desktop} alt="" />

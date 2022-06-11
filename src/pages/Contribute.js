@@ -84,7 +84,7 @@ class Contribute extends React.Component {
             <div className="form-story form">
               <label htmlFor="story">
                 <span className="label">Story</span>
-                <textarea id="story" minLength={300} name="story" placeholder="Enter your story here" value={story} onChange={this.handleStoryChange} />
+                <textarea id="story" minLength={200} name="story" placeholder="Enter your story here" value={story} onChange={this.handleStoryChange} />
               </label>
             </div>
             <div className="form-photo form">

@@ -24,4 +24,16 @@ export const collection2 = {
   ],
 };
 
+export const collection3 = {
+  name: 'Seth Avey',
+  id: 'sethavey',
+  href: '#sethavey',
+  images: [
+    null,
+  ],
+  stories: [
+    'Scott was my young men\'s leader when I was a teacher. He and John Vincent planned fun activities that got us out of the house and into the mountains. One campout we got several young men to come, some of which had not been hiking or camping very much. I was impatient so Scott joined me and a few other boys at the front and Brother Vincent took the caboose to stay back with the young men who were a bit slower. \nThe hike was relatively long, but Scott knew where the lake was that we would camp by that night. A couple hours later we arrived at the lake tired, but happy that we made it. Unfortunately the slower group was not right behind us. We waited for over an hour and searched down the trail, but to no avail. Just as it was getting dark and we were starting to panic Scott suggested that we say a prayer. After the prayer we all felt more at ease. We felt impressed to set up camp for the night and that the other group would be okay. \nAfter starting a fire we ate and talked. Scott drew our attention to another fire from across the lake and said, "I\'d bet that is John and the other boys." The next morning we packed up our gear and headed down the trail only to bump right into the other boys with Brother Vincent! Scott was right that they were the group on the other side of the lake. Brother Vincent was very frustrated at us for leaving their group behind and he took out some of that frustration on me for hiking too fast. Scott "talked him off the ledge" by sharing our experience praying about what to do before setting up camp. \nI will never forget the calm assurance that Scott showed me on that trip. I have used that experience in teaching about receiving answers to personal prayers several times in my life. I am so grateful for the incredibly positive influence Scott has been to me throughout my life. Happy birthday Scott!',
+  ],
+};
+
 export default collection1;

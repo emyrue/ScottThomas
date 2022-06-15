@@ -36,4 +36,18 @@ export const collection3 = {
   ],
 };
 
+export const collection4 = {
+  name: 'Brent Thomas',
+  id: 'brentthomas',
+  href: '#brentthomas',
+  images: [
+    null,
+    null,
+  ],
+  stories: [
+    '"Good judgement comes from experience. Most experience comes from poor judgement." When I was little, Scott and I were home one night when Mom and Dad were gone somewhere. We smelled a skunk. Investigating, we found it was in the hayfield just west of the house, and southwest (upwind) of the house. So Scott decided we needed to eliminate it. He had me hold the flashlight, and he shot it with the shotgun. Since the skunk was upwind, we (and the house) were downwind. I will leave you to figure out the consequences of our successful hunt. Hence the quote at the beginning of the story.',
+    'Mom\'s siblings and their families had a tradition of going to Yellowstone Park every summer, when the Yellowstone River opened to fishing, I think on the first of July. I look at that since, and knowing now that hay needed to be cut, potatoes and grain watered, and cows milked (maybe the busiest time of the year), I wonder how Dad ever found the time to go. But I remember one year Scott was left home to take care of the chores and try to keep the farmwork going by himself. I didn\'t grasp what that meant at the time, since that put a lot of the responsibility for the welfare of the family on a teenager, but I do now. What a tribute to the character of a teenage boy.',
+  ],
+};
+
 export default collection1;

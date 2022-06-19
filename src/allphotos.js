@@ -96,6 +96,13 @@ import image96 from './photos/image96.png';
 import image97 from './photos/image97.png';
 import image98 from './photos/image98.png';
 import image99 from './photos/image99.png';
+import image100 from './photos/image100.png';
+import image101 from './photos/image101.png';
+import image102 from './photos/image102.png';
+import image103 from './photos/image103.png';
+import image104 from './photos/image104.png';
+import image105 from './photos/image105.png';
+import image106 from './photos/image106.png';
 
 const images = [
   image1,
@@ -196,6 +203,13 @@ const images = [
   image97,
   image98,
   image99,
+  image100,
+  image101,
+  image102,
+  image103,
+  image104,
+  image105,
+  image106,
 ];
 
 export default images;

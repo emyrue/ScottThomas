@@ -85,6 +85,17 @@ import image85 from './photos/image85.png';
 import image86 from './photos/image86.png';
 import image87 from './photos/image87.png';
 import image88 from './photos/image88.png';
+import image89 from './photos/image89.png';
+import image90 from './photos/image90.png';
+import image91 from './photos/image91.png';
+import image92 from './photos/image92.png';
+import image93 from './photos/image93.png';
+import image94 from './photos/image94.png';
+import image95 from './photos/image95.png';
+import image96 from './photos/image96.png';
+import image97 from './photos/image97.png';
+import image98 from './photos/image98.png';
+import image99 from './photos/image99.png';
 
 const images = [
   image1,
@@ -174,6 +185,17 @@ const images = [
   image86,
   image87,
   image88,
+  image89,
+  image90,
+  image91,
+  image92,
+  image93,
+  image94,
+  image95,
+  image96,
+  image97,
+  image98,
+  image99,
 ];
 
 export default images;

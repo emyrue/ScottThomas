@@ -50,4 +50,42 @@ export const collection4 = {
   ],
 };
 
+export const collection5 = {
+  name: 'Nash Miller',
+  id: 'nashmiller',
+  href: '#nashmiller',
+  images: [
+    null,
+  ],
+  stories: [
+    'Growing up, I was always so excited to visit Grandpa Scott. I knew a trip to his house would bring a quarter for every apricot I picked off his lawn, fishing trips, piggyback rides and a "kick in the duff". As an adult, I know a trip to his house will bring rolls, a listening ear and deep, loving wisdom. Grandpa Scott is one of my heroes. His quiet love and service, expecting nothing in return, will continue to serve as an example for me far into the future.',
+  ],
+};
+
+export const collection6 = {
+  name: 'Luke Miller',
+  id: 'lukemiller',
+  href: '#lukemiller',
+  images: [
+    null,
+    null,
+  ],
+  stories: [
+    'Some of my favorite memories with Grandpa are from when we would go fishing when I was little. Even though I didn\'t always catch much, I loved spending time with Grandpa, and he would take me to my favorite restaurant at the time, Subway!',
+    'Once, when I was about 6 or 7, I asked Grandpa about the origins of his famous "bellybutton chin". He told me that he was born without one, but whenever he thinks hard about something, he presses his finger to his chin, leaving an indent. I thought this was actually where his bellybutton chin came from, and tried to replicate it a few times with little success.',
+  ],
+};
+
+export const collection7 = {
+  name: 'Charlene Thomas',
+  id: 'charlenethomas',
+  href: '#charlenethomas',
+  images: [
+    null,
+  ],
+  stories: [
+    'I love and respect Scott so much. We have had so much fun together over the years visiting, camping, going out for dinner and so much more. Scott and I have a very special bond, but it is much better and more exaggerated when he tells it. Have him tell you about our meeting in the woods, but only if he wants to. It can be our little secret if he doesn\'t.',
+  ],
+};
+
 export default collection1;

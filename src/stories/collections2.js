@@ -47,4 +47,28 @@ const collection8 = {
   ],
 };
 
+export const collection9 = {
+  name: 'Heidi Miller',
+  id: 'heidimiller',
+  href: '#heidimiller',
+  images: [
+    null,
+  ],
+  stories: [
+    'Dad, I don\'t know that I have the words to express my gratitude and love for you as my Dad. There are so many life lessons that you taught me. So many valuable, important things that I have used throughout my life. I don\'t know that I could every thank you enough for those. You have been such an example of kindness, calmness in the storms, compassion and hard work. Your love for mom through all that you both have been through together was amazing to me. Thank you for loving her the way you did. Thank you for being such a good Grandpa. You always know how to cheer your grandkids up. You know what they like and you do those special things for them. They are all better people because of you, Dad. I remember wanting my kids to fish so badly. Creed isn\'t really a fisherman, but I wanted my boys to know how to fish. I don\'t know why that was important to me. Probably because I look back on the times you let me go fishing with you and Bret and Jeff with such fondness. Luke was really the only one that liked to fish and you took him every chance you got. I appreciated that so much, Dad. I remember as a little girl, wanting to be like my brothers so badly. You would occasionally take Bret and Jeff fishing or golfing and I wanted to go too, but the boys didn\'t want me to. I don\'t know if I just bugged you so much that you finally gave in or what, but you let me go with the three of you every once in awhile. I was determined to carry my own weight. You told me that if I went fishing with you I had to clean and gut my own fish and worm my own hooks. It grossed me out so much, but you showed me how to do it and I did it. I remember feeling so grown up and cool like my brothers because you let me go with you. Thank you for that. I love you Dad. Happy 80th Birthday!!! It\'s a big milestone. We all admire you so much. Thank you for providing so well for us growing up. We are all pretty lucky to have you as our Dad.',
+  ],
+};
+
+export const collection10 = {
+  name: 'Mallory Miller',
+  id: 'mallorymiller',
+  href: '#mallorymiller',
+  images: [
+    null,
+  ],
+  stories: [
+    'Gramps! I\'m so grateful for you and your presence in my life. I can remember so many summers coming to your house and you bought key lime yogurt for me or let me help you make the rolls or play games with the cousins and I. I\'ve inherited the sacred Thomas baking skills from you that you passed down to my mom and she passed down to me, I\'ll be forever grateful for the knowledge of how to make a pie and bake bread. I\'ll never forget going to the backyard seeing you garden and asking if I could help and you\'d tell me to wash the little potatoes, or I\'d ask a random question about your life and you\'d answer with a cool story, or you\'d give me a bag of zucchini\'s and squashes and tell me to give them to the lady next door. I\'ve learned how to be a good person, how to love the gospel and stick with it, and how to be so kind and generous from you. You are a selfless person and I\'m so grateful I have you as an example in my life. I\'ll be sure to name my kid Scott. Happy birthday, you aren\'t that old by the way, just getting there.',
+  ],
+};
+
 export default collection8;

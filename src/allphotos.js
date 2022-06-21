@@ -104,6 +104,7 @@ import image104 from './photos/image104.png';
 import image105 from './photos/image105.png';
 import image106 from './photos/image106.png';
 import image107 from './photos/image107.png';
+import image108 from './photos/image108.png';
 
 const images = [
   image1,
@@ -212,6 +213,7 @@ const images = [
   image105,
   image106,
   image107,
+  image108,
 ];
 
 export default images;

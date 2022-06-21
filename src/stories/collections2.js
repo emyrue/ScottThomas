@@ -1,5 +1,6 @@
 import storyImage2 from '../story-photos/storyImage2.png';
 import storyImage3 from '../story-photos/storyImage3.png';
+import storyImage4 from '../story-photos/storyImage4.png';
 
 const collection8 = {
   name: 'Steve and Colleen Avey',
@@ -68,6 +69,18 @@ export const collection10 = {
   ],
   stories: [
     'Gramps! I\'m so grateful for you and your presence in my life. I can remember so many summers coming to your house and you bought key lime yogurt for me or let me help you make the rolls or play games with the cousins and I. I\'ve inherited the sacred Thomas baking skills from you that you passed down to my mom and she passed down to me, I\'ll be forever grateful for the knowledge of how to make a pie and bake bread. I\'ll never forget going to the backyard seeing you garden and asking if I could help and you\'d tell me to wash the little potatoes, or I\'d ask a random question about your life and you\'d answer with a cool story, or you\'d give me a bag of zucchini\'s and squashes and tell me to give them to the lady next door. I\'ve learned how to be a good person, how to love the gospel and stick with it, and how to be so kind and generous from you. You are a selfless person and I\'m so grateful I have you as an example in my life. I\'ll be sure to name my kid Scott. Happy birthday, you aren\'t that old by the way, just getting there.',
+  ],
+};
+
+export const collection11 = {
+  name: 'Grant Miller',
+  id: 'grantmiller',
+  href: '#grantmiller',
+  images: [
+    storyImage4,
+  ],
+  stories: [
+    'As a child, one of my favorite things was always getting to ride on Grandpa\'s shoulders. Every time my mom said we were going to visit him, I always asked “Can I ride on his shoulders?” He would run around the house and have to duck under every doorway so I didn\'t hit my head. I remember the year that I realized I was too big for it was a sad year.',
   ],
 };
 

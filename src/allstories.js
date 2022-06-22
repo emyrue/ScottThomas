@@ -5,7 +5,7 @@ import collection8, { collection9, collection10, collection11 } from './stories/
 import collection12, {
   collection13, collection14, collection15, collection16, collection17, collection18,
 } from './stories/collections3';
-import collection19, { collection20 } from './stories/collections4';
+import collection19, { collection20, collection21, collection22 } from './stories/collections4';
 
 const collections = [
   collection1,
@@ -28,6 +28,8 @@ const collections = [
   collection18,
   collection19,
   collection20,
+  collection21,
+  collection22,
 ];
 
 export default collections;

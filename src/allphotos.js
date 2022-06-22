@@ -105,6 +105,56 @@ import image105 from './photos/image105.png';
 import image106 from './photos/image106.png';
 import image107 from './photos/image107.png';
 import image108 from './photos/image108.png';
+import image109 from './photos/image109.png';
+import image110 from './photos/image110.png';
+import image111 from './photos/image111.png';
+import image112 from './photos/image112.png';
+import image113 from './photos/image113.png';
+import image114 from './photos/image114.png';
+import image115 from './photos/image115.png';
+import image116 from './photos/image116.png';
+import image117 from './photos/image117.png';
+import image118 from './photos/image118.png';
+import image119 from './photos/image119.png';
+import image120 from './photos/image120.png';
+import image121 from './photos/image121.png';
+import image122 from './photos/image122.png';
+import image123 from './photos/image123.png';
+import image124 from './photos/image124.png';
+import image125 from './photos/image125.png';
+import image126 from './photos/image126.png';
+import image127 from './photos/image127.png';
+import image128 from './photos/image128.png';
+import image129 from './photos/image129.png';
+import image130 from './photos/image130.png';
+import image131 from './photos/image131.png';
+import image132 from './photos/image132.png';
+import image133 from './photos/image133.png';
+import image134 from './photos/image134.png';
+import image135 from './photos/image135.png';
+import image136 from './photos/image136.png';
+import image137 from './photos/image137.png';
+import image138 from './photos/image138.png';
+import image139 from './photos/image139.png';
+import image140 from './photos/image140.png';
+import image141 from './photos/image141.png';
+import image142 from './photos/image142.png';
+import image143 from './photos/image143.png';
+import image144 from './photos/image144.png';
+import image145 from './photos/image145.png';
+import image146 from './photos/image146.png';
+import image147 from './photos/image147.png';
+import image148 from './photos/image148.png';
+import image149 from './photos/image149.png';
+import image150 from './photos/image150.png';
+import image151 from './photos/image151.png';
+import image152 from './photos/image152.png';
+import image153 from './photos/image153.png';
+import image154 from './photos/image154.png';
+import image155 from './photos/image155.png';
+import image156 from './photos/image156.png';
+import image157 from './photos/image157.png';
+import image158 from './photos/image158.png';
 
 const images = [
   image1,
@@ -214,6 +264,56 @@ const images = [
   image106,
   image107,
   image108,
+  image109,
+  image110,
+  image111,
+  image112,
+  image113,
+  image114,
+  image115,
+  image116,
+  image117,
+  image118,
+  image119,
+  image120,
+  image121,
+  image122,
+  image123,
+  image124,
+  image125,
+  image126,
+  image127,
+  image128,
+  image129,
+  image130,
+  image131,
+  image132,
+  image133,
+  image134,
+  image135,
+  image136,
+  image137,
+  image138,
+  image139,
+  image140,
+  image141,
+  image142,
+  image143,
+  image144,
+  image145,
+  image146,
+  image147,
+  image148,
+  image149,
+  image150,
+  image151,
+  image152,
+  image153,
+  image154,
+  image155,
+  image156,
+  image157,
+  image158,
 ];
 
 export default images;

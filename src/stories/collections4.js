@@ -24,4 +24,28 @@ export const collection20 = {
   ],
 };
 
+export const collection21 = {
+  name: 'Glen and Brenda Crooks',
+  id: 'glenandbrendacrooks',
+  href: '#glenandbrendacrooks',
+  images: [
+    null,
+  ],
+  stories: [
+    'Our memories of fun times and experiences with Scott and Sherrie over almost 50 years are too numerous to include in a short tribute piece. As our children left to live their own lives and seek their fortunes, we found solace with comfortable friends. Many were the times we got together with Scott and Sherrie for dinners—favorite restaurants, take-out in association with game nights, and even celebrating Thanksgiving dinners at their house. The highlight of our time with them, however, was an Hawaiian cruise where we left from Vancouver, sailed across the Pacific and visited all the Hawaiian Islands. What a treat it was to experience their first cruise with them. There were a few mishaps along the way. Sherrie tipped her Jazzy over, with her on it, on the streets of Vancouver before we ever got on the cruise ship. Fortunately, she was not injured so we could go to the port the next morning instead of visiting her in the hospital! After a taxi tour on Kauai, Sherrie left her much-needed cane in the taxi cab and we had to track down the driver on a golf course after his shift. We had minutes to spare before the ship set sail. Overall, it was a fabulous vacation with Scott, Sherrie, and “Bob.” (Inside joke that Scott will understand!). The more time we spent with them, the more insight we gained into the character and personality of Scott. Scott Thomas is the person all of us would be if we had the clarity of thought, persistence in strength, and the calm of patience to do it. All of these things are there for us just as the brass ring is there for everyone riding the carousel. Most of us, however, become distracted as we whirl through the ride. Our friends and family are out there waving each time we pass. The music is loud and fun. The people next to us, who have each chosen the shiny painted animal which caught their fancy in the scramble to start their turn on the merry-go-round, surge up and down. It is easy to forget there is a brass ring within our reach. The ride may end before we even try. But, Scott comes to grab the ring, and does so calmly focused. No boasting. No fanfare. Simply success. He\'s there to see, not to be seen. That\'s what seers do. However, we do see him. We see what we can be when we see Scott. This is why we love to see him. This is why we love to be with him. This is why we love him…but, the distractions keep coming. They always will, just as the carousel always stops to let new people come aboard to have their chance at the coveted ring. As Scott grabs this current ring in his life, we celebrate his accomplishments, congratulate him, and wish him health, happiness and many more good times.',
+  ],
+};
+
+export const collection22 = {
+  name: 'Emily Laudie',
+  id: 'emilylaudie',
+  href: '#emilylaudie',
+  images: [
+    null,
+  ],
+  stories: [
+    'When I finished school and started working in SLC I needed a place to stay for a few months. I knew Uncle Scott and Aunt Sherrie often had someone living with them, and I was so grateful they said yes one more time. I lived there through the summer months and it seemed like about every day Uncle Scott would come home with fresh corn on the cob. He also introduced me to jicama, which I still like to chop up the way he did and put in salads. I lived there a few months, and about a year later they said yes again when Seth needed a place to stay after we got engaged. I\'ve thought a lot about the sacrifice of personal space and quiet and privacy as we\'ve had a few people live with us over the past few years. Thank you, Uncle Scott, for that selfless yes that you gave so many times! And for being so warm and welcoming and never making me feel like it was a bother to have me there! Sometimes I think of a story Uncle Scott told me several years ago and laugh every time I imagine it. He said he used the bulge from his hernia to help keep his pants up, but once when walking to his car in the grocery store parking lot, his belt slipped down over the hernia and down went the pants. When I trip or do something worth a laugh but I\'m alone and don\'t get to enjoy that moment with anyone I think of him by himself in that parking lot, bending over and pulling them back up and continuing the walk to his car. Happy Birthday Uncle Scott! You\'ve made this earth a better world for 80 years and I\'m so very grateful you have been a piece of my life!',
+  ],
+};
+
 export default collection19;

@@ -1,4 +1,5 @@
 import storyImage8 from '../story-photos/storyImage8.png';
+import storyImage9 from '../story-photos/storyImage9.png';
 
 const collection19 = {
   name: 'Creed Miller',
@@ -45,6 +46,18 @@ export const collection22 = {
   ],
   stories: [
     'When I finished school and started working in SLC I needed a place to stay for a few months. I knew Uncle Scott and Aunt Sherrie often had someone living with them, and I was so grateful they said yes one more time. I lived there through the summer months and it seemed like about every day Uncle Scott would come home with fresh corn on the cob. He also introduced me to jicama, which I still like to chop up the way he did and put in salads. I lived there a few months, and about a year later they said yes again when Seth needed a place to stay after we got engaged. I\'ve thought a lot about the sacrifice of personal space and quiet and privacy as we\'ve had a few people live with us over the past few years. Thank you, Uncle Scott, for that selfless yes that you gave so many times! And for being so warm and welcoming and never making me feel like it was a bother to have me there! Sometimes I think of a story Uncle Scott told me several years ago and laugh every time I imagine it. He said he used the bulge from his hernia to help keep his pants up, but once when walking to his car in the grocery store parking lot, his belt slipped down over the hernia and down went the pants. When I trip or do something worth a laugh but I\'m alone and don\'t get to enjoy that moment with anyone I think of him by himself in that parking lot, bending over and pulling them back up and continuing the walk to his car. Happy Birthday Uncle Scott! You\'ve made this earth a better world for 80 years and I\'m so very grateful you have been a piece of my life!',
+  ],
+};
+
+export const collection23 = {
+  name: 'Heather Robertson',
+  id: 'heatherrobertson',
+  href: '#heatherrobertson',
+  images: [
+    storyImage9,
+  ],
+  stories: [
+    'When I was a kid, time with my dad made me feel like a million bucks. I remember going to the UEA Convention and holding his hand while crossing the street. I counted the steps it took me to equal one of his. I remember him taking me to Kentucky Fried Chicken while the rest of the family went to a Haunted House. It was the best date ever! I remember a note he wrote to me while I was at girls camp. I felt so loved. I still have that note. To be continued….',
   ],
 };
 
